@@ -259,9 +259,9 @@ def BetaGo(ch, m, n, color, times):
 
 def satrtGUI(ch):
     pygame.init()
-    bg = 'bg.png'
-    white_image = 'white.png'
-    black_image = 'black.png'
+    bg = './Res/bg.png'
+    white_image = './Res/white.png'
+    black_image = './Res/black.png'
 
     screen = pygame.display.set_mode((750, 750), 0, 32)
     background = pygame.image.load(bg).convert()
